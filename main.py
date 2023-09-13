@@ -17,21 +17,18 @@ def script():
     start_time = time.time()
     # check the list of projects (if new projects were added)
     # download_and_update_project_list()
-
-    # print(database.check_text().data)
-    database.doc_type_metrics()
     # for each project run the scrape / analysis
-    '''
+
     projects = database.retrieve_db_project_list()
     runner = 0
     for project in projects:
         if runner < 10:
             project.scrape_and_analyse_documents()
             runner += 1
-    '''
 
     end_time = time.time()
     logger.info(f"Finished the application in {end_time - start_time} seconds")
+    database.doc_type_metrics()
 
 
 if __name__ == '__main__':

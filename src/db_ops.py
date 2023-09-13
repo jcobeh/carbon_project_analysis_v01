@@ -152,5 +152,5 @@ def calc_freq_for_doc_type(result_dict, doc_type):
                 four += 1
             else:
                 more += 1
-    print(f"document of type {doc_type} is distributed as follows: 0x: {zero}, 1x: {one}, 2x: {two}, 3x: {three}, 4x: "
-          f"{four}, more: {more}")
+    print(f"document of type {doc_type} is distributed across projects as follows: 0x: {zero}, 1x: {one}, 2x: {two}, "
+          f"3x: {three}, 4x: {four}, more: {more}")
