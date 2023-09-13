@@ -96,3 +96,61 @@ def store_document(document):
 
 def check_text():
     return supabase.table('Documents').select('text').eq('doc_type', 11).eq('project_id', 2502).execute()
+
+
+def doc_type_metrics():
+    result = supabase.table('Documents').select('project_id', 'doc_type').execute()
+    data = result.data
+    if len(data) > 0:
+        # parse data of the following format to create a table where the rows are project_ids and the columns are
+        # doc_types: [{'project_id': 2558, 'doc_type': 11}, {'project_id': 2558, 'doc_type': 31}, {'project_id': 2558,
+        # 'doc_type': 13}, {'project_id': 2558, 'doc_type': 61}, {'project_id': 2558, 'doc_type': 22}, ...
+        result_dict = {}
+        for d in data:
+            # Get the project_id and doc_type from the current dictionary
+            project_id = d['project_id']
+            doc_type = d['doc_type']
+
+            # If the project_id is not already a key in the result_dict, add it with the doc_type as the value
+            if project_id not in result_dict:
+                result_dict[project_id] = {doc_type: 1}
+            # If the project_id is already a key in the result_dict, check if the doc_type is already a
+            # key in the nested dictionary
+            else:
+                # If the doc_type is not already a key in the nested dictionary, add it with the value 1
+                if doc_type not in result_dict[project_id]:
+                    result_dict[project_id][doc_type] = 1
+                # If the doc_type is already a key in the nested dictionary, increment the value by 1
+                else:
+                    result_dict[project_id][doc_type] += 1
+        print(result_dict)
+        # count projects with 0, 1, 2 and more documents with type 11
+        calc_freq_for_doc_type(result_dict, 11)
+        calc_freq_for_doc_type(result_dict, 12)
+        calc_freq_for_doc_type(result_dict, 13)
+        calc_freq_for_doc_type(result_dict, 61)
+
+
+def calc_freq_for_doc_type(result_dict, doc_type):
+    zero = 0
+    one = 0
+    two = 0
+    three = 0
+    four = 0
+    more = 0
+    for project_id, doc_types in result_dict.items():
+        if doc_type in doc_types:
+            if doc_types[doc_type] == 0:
+                zero += 1
+            elif doc_types[doc_type] == 1:
+                one += 1
+            elif doc_types[doc_type] == 2:
+                two += 1
+            elif doc_types[doc_type] == 3:
+                three += 1
+            elif doc_types[doc_type] == 4:
+                four += 1
+            else:
+                more += 1
+    print(f"document of type {doc_type} is distributed as follows: 0x: {zero}, 1x: {one}, 2x: {two}, 3x: {three}, 4x: "
+          f"{four}, more: {more}")

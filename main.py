@@ -18,8 +18,8 @@ def script():
     # check the list of projects (if new projects were added)
     # download_and_update_project_list()
 
-    print(database.check_text().data)
-
+    # print(database.check_text().data)
+    database.doc_type_metrics()
     # for each project run the scrape / analysis
     '''
     projects = database.retrieve_db_project_list()
