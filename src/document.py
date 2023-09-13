@@ -2,6 +2,7 @@ from pdfminer.high_level import extract_text
 from langdetect import detect
 import globals
 import logging
+import re
 
 
 class Document:
@@ -29,6 +30,7 @@ class Document:
         if self.filename.lower().endswith(".pdf"):
             try:
                 self.text = extract_text(globals.TEMP_DOC_STORAGE + "/" + self.filename)
+                self.preprocess_text()
             except Exception as e:
                 logger.info("text extraction failed!")
         if len(self.text) < 10:
@@ -43,6 +45,8 @@ class Document:
         self.is_val_r()
         self.is_ver_r()
         self.is_j_vr_vr()
+        self.is_prr()
+        self.is_mapping()
         self.is_other_doc()
 
     def analyse_language(self):
@@ -54,15 +58,36 @@ class Document:
                                                 f"{self.filename} could not be detected due to the error: {e}")
                 self.language = "not detected"
 
+    def preprocess_text(self):
+        x = self.text
+        if x:
+            x1 = " ".join(x.split())
+            x2 = re.sub(r'\S+@\S+', '[personal e-mail]', x1)
+            x3 = re.sub(r'\d{6,}', '[personal phone number]', x2)
+            x4 = re.sub(r'\.{5,}', '....', x3)
+            self.text = x4
+
     def is_legal_doc(self):
         if self.filename.lower().endswith(".pdf"):
             a = self.text.count("VCS LISTING REPRESENTATION")
+            if self.filename.lower().count("listing") > 0 and self.filename.lower().count("representation") > 0:
+                a += 1
             b = self.text.count("VCS REGISTRATION DEED OF REPRESENTATION")
+            if self.filename.lower().count("registration") > 0 and self.filename.lower().count("representation") > 0:
+                b += 1
             c = self.text.count("VCS ISSUANCE DEED OF REPRESENTATION")
+            if self.filename.lower().count("issuance") > 0 and self.filename.lower().count("representation") > 0:
+                c += 1
             d = self.text.count("VCS VALIDATION DEED OF REPRESENTATION")
+            if self.filename.lower().count("validation") > 0 and self.filename.lower().count("representation") > 0:
+                d += 1
             e = self.text.count("VCS VERIFICATION DEED OF REPRESENTATION")
+            if self.filename.lower().count("verification") > 0 and self.filename.lower().count("representation") > 0:
+                e += 1
             f = self.text.count("VERRA REGISTRY COMMUNICATIONS AGREEMENT")
-            g = self.text.count("DECLARATION OF AGENCY AND COMMUNICATIONS AGREEMENT")
+            f += self.text.count("DECLARATION OF AGENCY AND COMMUNICATIONS AGREEMENT")
+            if self.filename.lower().count("communications") > 0 and self.filename.lower().count("agreement") > 0:
+                f += 1
             if a > 0:
                 self.doc_type = globals.VCS_LISTING_REPRESENTATION
             elif b > 0:
@@ -75,8 +100,6 @@ class Document:
                 self.doc_type = globals.VCS_VERIFICATION_DEED_OF_REPRESENTATION
             elif f > 0:
                 self.doc_type = globals.VERRA_REGISTRY_COMMUNICATIONS_AGREEMENT
-            elif g > 0:
-                self.doc_type = globals.VERRA_REGISTRY_COMMUNICATIONS_AGREEMENT
 
     def is_pd(self):
         score = 0
@@ -84,7 +107,7 @@ class Document:
             # A: filename based scoring
             if self.filename.lower().count("proj") > 0 and self.filename.lower().count("desc") > 0:
                 score += 1
-            elif self.filename.count("PD") > 0:
+            elif re.findall(r'(?<![a-zA-Z])PD(?![a-zA-Z])', self.filename):
                 score += 1
             # B: content based scoring
             if self.text.count("CCB & VCS PROJECT DESCRIPTION") > 0:
@@ -103,7 +126,7 @@ class Document:
             # A: filename based scoring
             if self.filename.lower().count("monitoring") > 0:
                 score += 1
-            elif self.filename.count("MR") > 0:
+            elif re.findall(r'(?<![a-zA-Z])MR(?![a-zA-Z])', self.filename):
                 score += 1
             # B: content based scoring
             if self.text.count("MONITORING REPORT:") > 0:
@@ -170,6 +193,21 @@ class Document:
             # assign document type
             if score > 0:
                 self.doc_type = globals.JOINT_VR_VR
+
+    def is_prr(self):
+        a = 0
+        if self.filename.lower().count("project") > 0 & self.filename.count("review") > 0:
+            a += 1
+        if self.filename.lower().count("review") > 0 & self.filename.count("report") > 0:
+            a += 1
+        if re.findall(r'(?<![a-zA-Z])PRR(?![a-zA-Z])', self.filename):
+            a += 1
+        if a > 0:
+            self.doc_type = globals.PROJECT_REVIEW_REPORT
+
+    def is_mapping(self):
+        if self.filename.endswith(".kml"):
+            self.doc_type = globals.MAPPING_OF_AREA
 
     def is_other_doc(self):
         if self.doc_type == 0:

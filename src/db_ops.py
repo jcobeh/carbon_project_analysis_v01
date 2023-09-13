@@ -17,18 +17,26 @@ def update_project_list(project_ids):
     logger = logging.getLogger('MyApp')
     logger.info('updating project list in the database')
     from src.project import Project
+    existing_project_ids_dicts = supabase.table('Projects').select('project_id').execute()
+    existing_project_ids = [item['project_id'] for item in existing_project_ids_dicts.data]
+
     for project_id in project_ids:
         # check if project exists in database
-        existing_project = supabase.table('Projects').select('project_id').eq('project_id', project_id).execute()
-        if not existing_project.data:
+        if project_id not in existing_project_ids:
             current_project = Project(project_id)
             project_dict = current_project.to_dict()
             project_data = supabase.table('Projects').insert(project_dict).execute()
             assert (len(project_data.data) > 0)
-    logger.info(supabase.table('Projects').select('*').execute())
+    for project_id in existing_project_ids:
+        # check if project exists in project_ids
+        if project_id not in project_ids:
+            project_data = supabase.table('Projects').delete().eq('project_id', project_id).execute()
+            assert (len(project_data.data) > 0)
+            logger.info(f"deleted project {project_id} from database as it is not in the list of projects anymore")
+    logger.info(str(len(supabase.table('Projects').select('*').execute().data)) + " projects now in the database")
 
 
-def retrieve_project_list():
+def retrieve_db_project_list():
     logging.getLogger('MyApp').info('retrieving project list from the database')
     from src.project import Project
     projects = supabase.table('Projects').select('*').execute()
@@ -84,3 +92,7 @@ def store_document(document):
         document_data = supabase.table('Documents').update(document_dict).eq('doc_id', document.doc_id)\
             .eq('project_id', document.project_id).execute()
         assert (len(document_data.data) > 0)
+
+
+def check_text():
+    return supabase.table('Documents').select('text').eq('doc_type', 11).eq('project_id', 2502).execute()

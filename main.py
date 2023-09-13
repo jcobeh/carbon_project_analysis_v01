@@ -16,19 +16,20 @@ def script():
     logger.info('Starting the application')
     start_time = time.time()
     # check the list of projects (if new projects were added)
-    # download_project_list()
-    # project_ids = find_redd_ids()
-    # database.update_project_list(project_ids)
+    # download_and_update_project_list()
+
+    print(database.check_text().data)
 
     # for each project run the scrape / analysis
-    # projects = database.retrieve_project_list()
+    '''
+    projects = database.retrieve_db_project_list()
+    runner = 0
+    for project in projects:
+        if runner < 10:
+            project.scrape_and_analyse_documents()
+            runner += 1
+    '''
 
-    # test code:
-    # Project(2558).scrape_and_analyse_documents()
-    docs = database.retrieve_existing_project_documents(Project(2558))
-    print(docs[0].filename)
-    print(docs[0].text)
-    print(docs[0].text.count(" "))
     end_time = time.time()
     logger.info(f"Finished the application in {end_time - start_time} seconds")
 

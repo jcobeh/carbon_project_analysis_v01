@@ -6,23 +6,24 @@ import pandas as pd
 from pyppeteer import launch
 import globals
 import logging
+import src.db_ops as database
 
 
-def download_project_list(retries=3):
+def download_and_update_project_list(retries=3):
     logger = logging.getLogger('MyApp')
-    if not file_download_required():
-        return True
-    for i in range(retries):
-        logger.info(f'Trial number {i} to retrieve the project list starting.')
-        try:
-            asyncio.get_event_loop().run_until_complete(access_project_list())
-        except Exception as e:
-            print(f"Try {i}: that didn't work due to the following error: {e}")
-        filename = recently_created_file_exists()
-        if filename != "False":
-            check_and_move_or_replace(filename)
-            return True
-    return False
+    if file_download_required():
+        for i in range(retries):
+            logger.info(f'Trial number {i} to retrieve the project list starting.')
+            try:
+                asyncio.get_event_loop().run_until_complete(access_project_list())
+            except Exception as e:
+                print(f"Try {i}: that didn't work due to the following error: {e}")
+            filename = recently_created_file_exists()
+            if filename != "False":
+                check_and_move_or_replace(filename)
+                break
+    project_ids = find_redd_ids()
+    database.update_project_list(project_ids)
 
 
 def find_redd_ids():
