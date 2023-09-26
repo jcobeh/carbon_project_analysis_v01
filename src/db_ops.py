@@ -154,3 +154,17 @@ def calc_freq_for_doc_type(result_dict, doc_type):
                 more += 1
     print(f"document of type {doc_type} is distributed across projects as follows: 0x: {zero}, 1x: {one}, 2x: {two}, "
           f"3x: {three}, 4x: {four}, more: {more}")
+
+
+def get_project_by_id(project_id):
+    from src.project import Project
+    result = supabase.table('Projects').select('*').eq('project_id', project_id).execute()
+    data = result.data
+    if len(data) > 0:
+        project_data = data[0]
+        project = Project(project_id=project_data['project_id'],
+                          website_soup=project_data['website_soup'],
+                          last_website_retrieval=project_data['last_website_retrieval'])
+        project.documents = retrieve_existing_project_documents(project)
+        return project
+    return None

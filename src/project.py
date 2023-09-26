@@ -9,6 +9,7 @@ from datetime import datetime
 from pyppeteer import launch
 import asyncio
 import src.db_ops as database
+import src.llm as llm
 
 
 class Project:
@@ -52,6 +53,7 @@ class Project:
                         logger.info(f"File {filename} not in database, downloading and analysing")
         logger.info("Finished downloading documents for this project, see details:")
         logger.info(self.project_details())
+        # llm.project_documents_llm_processor(self)
 
     def download_analyse_save_delete_file(self, doc_id, filename, file_url, section, date_updated):
         logger = logging.getLogger('MyApp')
