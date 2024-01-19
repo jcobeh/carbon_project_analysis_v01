@@ -9,8 +9,8 @@ class Document:
 
     def __init__(self, doc_id, project_id, filename, website_category, last_updated, url, text="", doc_type=0,
                  language="not detected"):
-        self.doc_id = doc_id
-        self.project_id = project_id
+        self.doc_id: int = doc_id
+        self.project_id: int = project_id
         self.filename: str = filename
         self.website_category = website_category
         self.last_updated = last_updated
@@ -61,7 +61,7 @@ class Document:
     def preprocess_text(self):
         x = self.text
         if x:
-            x1 = " ".join(x.split())
+            x1 = re.sub(r'\n+', '\n', x)
             x2 = re.sub(r'\S+@\S+', '[personal e-mail]', x1)
             x3 = re.sub(r'\d{6,}', '[personal phone number]', x2)
             x4 = re.sub(r'\.{5,}', '....', x3)

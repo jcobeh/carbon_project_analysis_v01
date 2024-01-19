@@ -8,17 +8,30 @@ import logging
 from datetime import datetime
 from pyppeteer import launch
 import asyncio
-import src.db_ops as database
-import src.llm as llm
+import src.database as database
 
 
 class Project:
 
-    def __init__(self, project_id, website_soup=None, last_website_retrieval=None):
+    def __init__(self, project_id, website_soup=None, last_website_retrieval=None, project_activities=None,
+                 baseline_scenario=None, project_activities_raw_text=None, baseline_scenario_raw_text=None,
+                 proponent=None, annual_emission_red=None, vcs_methodology=None, hectares=None,
+                 vcs_project_validator=None, registration_date=None, crediting_period_term=None):
         self.project_id = project_id
         self.documents: List[Document] = []
         self.website_soup = website_soup
         self.last_website_retrieval = last_website_retrieval
+        self.project_activities = project_activities
+        self.baseline_scenario = baseline_scenario
+        self.project_activities_raw_text = project_activities_raw_text
+        self.baseline_scenario_raw_text = baseline_scenario_raw_text
+        self.proponent = proponent
+        self.annual_emission_red = annual_emission_red
+        self.vcs_methodology = vcs_methodology
+        self.hectares = hectares
+        self.vcs_project_validator = vcs_project_validator
+        self.registration_date = registration_date
+        self.crediting_period_term = crediting_period_term
 
     def scrape_and_analyse_documents(self):
         logger = logging.getLogger('MyApp')
@@ -26,7 +39,6 @@ class Project:
 
         soup = asyncio.get_event_loop().run_until_complete(self.get_soup())
         self.documents = database.retrieve_existing_project_documents(self)
-
         for group in soup.find_all('apx-document-group'):
             section = group.find('div', {'class': 'card-header'}).text.strip()
             logger.info(f'Iterating through website sections, current section Name: {section}.')
@@ -49,11 +61,11 @@ class Project:
                         else:
                             logger.info(f"File {filename} already in database, skipping download")
                     else:
-                        self.download_analyse_save_delete_file(doc_id, filename, file_url, section, date_updated)
                         logger.info(f"File {filename} not in database, downloading and analysing")
+                        self.download_analyse_save_delete_file(doc_id, filename, file_url, section, date_updated)
+        self.extract_standardised_project_data(soup)
         logger.info("Finished downloading documents for this project, see details:")
         logger.info(self.project_details())
-        # llm.project_documents_llm_processor(self)
 
     def download_analyse_save_delete_file(self, doc_id, filename, file_url, section, date_updated):
         logger = logging.getLogger('MyApp')
@@ -100,5 +112,69 @@ class Project:
             "project_id": int(self.project_id),
             "website_soup": self.website_soup,
             "last_website_retrieval": self.last_website_retrieval.strftime('%Y-%m-%d %H:%M:%S') if
-            self.last_website_retrieval else None
+            self.last_website_retrieval else None,
+            "project_activities": self.project_activities,
+            "baseline_scenario": self.baseline_scenario,
+            "project_activities_raw_text": self.project_activities_raw_text,
+            "baseline_scenario_raw_text": self.baseline_scenario_raw_text,
+            "proponent": self.proponent,
+            "annual_emission_red": self.annual_emission_red,
+            "vcs_methodology": self.vcs_methodology,
+            "hectares": self.hectares,
+            "vcs_project_validator": self.vcs_project_validator,
+            "registration_date": self.registration_date.strftime('%Y-%m-%d') if
+            self.registration_date else None,
+            "crediting_period_term": self.crediting_period_term
         }
+
+    def extract_standardised_project_data(self, soup: BeautifulSoup):
+        logger = logging.getLogger('MyApp')
+        # This is where we'll store the extracted data
+        data = {}
+
+        # Flags to ensure we are only considering values after the VCS heading, not CCB
+        vcs_started = False
+        ccb_started = False
+
+        mapping = {
+            "Proponent": "proponent",
+            "Estimated Annual Emission Reductions": "annual_emission_red",
+            "VCS Methodology": "vcs_methodology",
+            "Acres/Hectares": "hectares",
+            "VCS Project Validator": "vcs_project_validator",
+            "Project Registration Date": "registration_date",
+            "Crediting Period Term": "crediting_period_term"
+        }
+
+        current_key = None
+        for th in soup.find_all(['th', 'td']):
+            text = th.text.strip()
+
+            if th.name == 'th' and 'attr-sub-hdg' in th.get('class', []):
+                if text == 'VCS':
+                    vcs_started = True
+                    ccb_started = False
+                elif text == 'CCB':
+                    ccb_started = True
+                    vcs_started = False
+                current_key = None
+                continue
+
+            if vcs_started and not ccb_started and th.name == 'th':
+                current_key = text
+                data[current_key] = []
+            elif current_key and th.name == 'td':
+                data[current_key].append(text)
+
+        logger.info("extracted the following structured data for project with id " + str(self.project_id))
+        for key, values in data.items():
+            if key in mapping:
+                database_key = mapping[key]
+                if key == "Project Registration Date":
+                    value = datetime.strptime(''.join(values), "%d/%m/%Y").strftime('%Y-%m-%d')
+                    database.store_project_attribute(self.project_id, database_key, value)
+                elif key == "Acres/Hectares":
+                    database.store_project_attribute(self.project_id, database_key, values[0].split(" ")[0])
+                else:
+                    database.store_project_attribute(self.project_id, database_key, ', '.join(values))
+                logger.info(f"{key}: {', '.join(values)}")

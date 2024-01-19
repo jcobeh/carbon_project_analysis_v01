@@ -6,21 +6,22 @@ import pandas as pd
 from pyppeteer import launch
 import globals
 import logging
-import src.db_ops as database
+import src.database as database
 
 
 def download_and_update_project_list(retries=3):
     logger = logging.getLogger('MyApp')
-    if file_download_required():
+    if file_download_required('allprojects.xlsx'):
         for i in range(retries):
             logger.info(f'Trial number {i} to retrieve the project list starting.')
             try:
-                asyncio.get_event_loop().run_until_complete(access_project_list())
+                asyncio.get_event_loop().run_until_complete(access_list('allprojects'))
             except Exception as e:
-                print(f"Try {i}: that didn't work due to the following error: {e}")
-            filename = recently_created_file_exists()
+                logger.info(f"Trial #{i}: that didn't work due to the following error: {e}")
+                continue
+            filename = recently_created_file_exists("allprojects")
             if filename != "False":
-                check_and_move_or_replace(filename)
+                check_and_move_or_replace(filename, 'allprojects.xlsx')
                 break
     project_ids = find_redd_ids()
     database.update_project_list(project_ids)
@@ -37,7 +38,7 @@ def find_redd_ids():
     return project_ids
 
 
-async def access_project_list():
+async def access_list(target):
     logger = logging.getLogger('MyApp')
     logger.info('Launching managed browser to retrieve project list.')
     browser = await launch(headless=False)
@@ -50,45 +51,46 @@ async def access_project_list():
     await page.waitForXPath('//button[@title="Download Excel"]')
     button = await page.xpath('//button[@title="Download Excel"]')
     await button[0].click()
+    start_time = time.time()
     logger.info('Clicked "Download Excel". Waiting and checking if file was successfully downloaded.')
-    for i in range(6):
-        await asyncio.sleep(3)
-        if recently_created_file_exists():
-            logger.info('File was successfully downloaded.')
+    for i in range(20):
+        await asyncio.sleep(6)
+        if recently_created_file_exists(target):
+            logger.info(f'File was successfully downloaded in {time.time() - start_time} seconds.')
             break
     logger.info('Closing managed browser.')
     await browser.close()
 
 
-def recently_created_file_exists():
+def recently_created_file_exists(name):
     current_time = time.time()
     two_minutes_ago = current_time - 120  # 120 seconds is 2 minutes
     dl_path = os.path.expanduser('~/Downloads')
     for filename in os.listdir(dl_path):
-        if filename.startswith("allprojects"):
+        if filename.startswith(name):
             creation_time = os.path.getctime(os.path.join(dl_path, filename))
             if creation_time >= two_minutes_ago:
                 return filename
     return None
 
 
-def check_and_move_or_replace(filename):
+def check_and_move_or_replace(filename, new_name):
     logger = logging.getLogger('MyApp')
     source_file = os.path.expanduser(f'~/Downloads/{filename}')
-    destination_path = os.path.join(os.getcwd(), 'files', 'allprojects.xlsx')
+    destination_path = os.path.join(os.getcwd(), 'files', new_name)
     if os.path.exists(destination_path):
         logger.info('FYI: A file with that name already existed, it will be replaced.')
     shutil.move(source_file, destination_path)
     logger.info('File successfully downloaded and moved into project directory.')
 
 
-def file_download_required():
+def file_download_required(name):
     current_time = time.time()
     one_day_ago = current_time - (60*60*24)
-    path = os.path.join(os.getcwd(), 'files', 'allprojects.xlsx')
+    path = os.path.join(os.getcwd(), 'files', name)
     if os.path.exists(path):
         creation_time = os.path.getctime(path)
         if creation_time >= one_day_ago:
-            logging.getLogger('MyApp').info('Download not required as a file exists that is younger than 24h.')
+            logging.getLogger('MyApp').info(f'Download of {name} not required as a file, younger than 24h, exists.')
             return False
     return True

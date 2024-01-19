@@ -1,0 +1,442 @@
+ID,Activity,Cluster
+2723_1,"Productive activities: Develop economic alternatives compatible with community well-being and nature conservation. This will be achieved through activities such as designing and prioritizing productive activities, strengthening technical capacities of communities, implementing productive systems, and monitoring the implemented systems.",10
+2723_2,"Social Investment: Improve living conditions of the communities through activities such as identifying and prioritizing community needs, providing facilities and scholarships for education, improving medical care mechanisms, and improving basic sanitation conditions.",14
+2723_3,"Governance: Strengthen land use planning and mechanisms to guarantee food security for the communities. This includes preparing the Community Ethno-development Plan, strengthening local minor councils, and implementing activities defined in the ethno-development plan.",11
+2723_4,"Monitoring and forest governance: Contribute to biodiversity monitoring and conservation through activities such as strengthening capacities of forest rangers, providing tools for forest management, and monitoring biodiversity within the community council.",10
+2611_1,"Standardized Benefit Metrics: Measurement of net estimated emission removals and reductions in the project area, estimated forest loss reduction, and other metrics related to GHG emissions and forest cover.",12
+2611_2,Land with woody vegetation definition: Establishment of internationally accepted criteria for what constitutes a forest in the project area.,11
+2611_3,"Forego Selling of Property, Then Clearing and Conversion of the Project Areas: Negotiation with landowners to prevent clearing and conversion of the project areas to non-forest land.",15
+2611_4,Provide Health Services: Establishment of a healthcare service called Chaco Med to provide medical treatment to local communities and project personnel.,14
+2611_5,Raise Project Awareness: Engagement with local communities and stakeholders to increase awareness about the project and its objectives. Development of a visitor center to educate visitors about the project.,6
+2611_6,"Patrol and Monitor Deforestation: Surveillance activities, including aerial and ground monitoring, to detect and prevent deforestation in the project areas. Establishment of guard houses and hiring of local guards.",15
+2611_7,"Establish a Project Headquarters: Construction of regional and secondary project headquarters to serve as meeting places, training centers, and accommodation for project staff and visitors.",6
+2611_8,Monitor Medium-to-Large Mammals in the Project Areas: Monitoring of medium-to-large mammals in the project areas using wildlife cameras to assess the biodiversity impact of the project.,10
+2566_1,"Management area: Strengthening area management through technical, administrative, and institutional capacities to promote protection and production of the Pantanal ecosystem. Includes promoting harmonization of environmental management, reducing deforestation, and improving conservation-human production relationships.",10
+2566_2,"Environmental monitoring: Generating a balance between control and inspection activities, with continuous diagnosis of the ecosystem. Includes monitoring project activities, providing useful knowledge for medium and long-term actions, and building community capacity.",10
+2566_3,"Environmental control and inspection: Building capacities to promote strengthening of interest groups, formulation and adoption of management measures. Includes creating patrol groups, uniting partners, raising awareness, and strengthening community forest-tenure rights.",11
+2566_4,"Communication: Creating effective communication and dissemination channels, providing access to information about REDD+, and raising awareness among stakeholders. Includes promoting transparency, community participation, and gender and community inclusion.",2
+2566_5,"Fire prevention: Reducing threats to fauna and flora through prevention of natural and anthropogenic fires. Includes training, workshops, and community capacities for fire management, prevention, restoration, and suppression.",11
+2566_6,"Environmental education and capacity building: Building environmental education and awareness, promoting preservation of the ecosystem, and strengthening collective work. Includes training, sustainable productive activities, ecotourism practices, and capacity building for communities.",10
+2566_7,"Strategic actions: Generating a balance between stakeholder priorities and funding to develop projects. Includes integrating project objectives, meetings, new projects, and new financial sources.",6
+2558_1,"Description of the Project Activity: The main objective of the present REDD project is the conservation of 145,680.7882 ha of Amazon rainforest area within a private land named “Fazenda Pacajá”.",15
+2551_1,"Description of the Project Activity: The project aims to preserve the Amazon native vegetation through income generation from carbon credits commercialization. It works by avoiding deforestation in private properties that would have part of its forest cover legally suppressed. The main activity is the execution of long-term agreements with landowners for the conservation of native vegetation cover. Complementary activities include leakage mitigation, promoting net benefits to communities, biodiversity conservation, and project monitoring.",15
+2539_1,"Project Area Description: The EVERGREEN REDD+ PROJECT consists of a 130,554.8 hectare total Project Area of protected Amazon rainforest.",15
+2539_2,"Deforestation Avoidance: The project is predicted to avoid 44,818.5 hectares of deforestation, resulting in emissions reductions of 30,424,829 CO2e over the project lifetime.",15
+2539_3,"Discontinuation of Planned Deforestation: The project proponents have discontinued plans to deforest a total of 26,470.88 hectares over five years, resulting in avoided carbon emissions of 17,969,648 tCO2e.",15
+2539_4,"Factors Contributing to Deforestation: Factors contributing to deforestation include price increases, major infrastructure works, and weakening of environmental regulations.",15
+2539_5,"Sustainable Forest Management: The project plans to implement Sustainable Forest Management (SFM) activities, including the harvesting of forest products, while ensuring the conservation and regeneration of the natural stock.",0
+2539_6,"Forest Management Plan: A Sustainable Forest Management Plan (SFMP) may be implemented during the project period, with a predicted total area of 2,793.40 hectares for SFM activities.",0
+2539_7,"Forest Management Guidelines: The forest management guidelines include minimal cutting cycles, tree selection criteria, and restrictions on deforestation in certain areas.",0
+2539_8,Forest Inventory and Harvesting Plan: A complete forest inventory will be conducted to assess the area's forestry potential and develop a timber harvesting plan.,0
+2539_9,Forest Stewardship Council Certification: The future SFMP will be certified by the Forest Stewardship Council (FSC) to ensure low-impact harvest systems and ecological balance.,0
+2539_10,"Discontinued Planned Deforestation Activities: Planned deforestation activities totaling 26,471 hectares have been discontinued according to the project's methodology.",15
+2539_11,Jurisdictional and Nested REDD (JNR): The project is not currently located within a jurisdiction covered by a jurisdictional or nested REDD+ program.,12
+2538_1,"Establishment and maintenance of infrastructure: Construction and equipping of operational bases that allow the deployment of well-trained and equipped eco-guards (rangers) and eco-monitors across the entire PA. This activity supports all operational, surveillance, and management activities.",10
+2538_2,"Training and equipment of rangers: Providing training and necessary equipment to rangers to maintain control over the project area and enforce the law, reducing pastoralists' entry, human encroachment, poaching, and illegal timber collection.",3
+2538_3,"Trainings, engagement, and awareness sessions with transhumant pastoralists: Conducting trainings, engagement sessions, and awareness sessions with transhumant pastoralists to build trust and understanding of concepts such as carrying capacity of the land, environmental impacts, and disease transmission from cattle to fauna.",3
+2538_4,"Implementation of sustainable Income Generating Activities (IGAs): Implementing IGAs to provide livelihood benefits for local communities, diversify the local economy, and decrease dependence on agriculture. IGAs include bee-keeping, agricultural activities (such as sesame, soya farming, and organic cotton production), and financing of microprojects.",8
+2538_5,"Education activities: Enhancing the understanding of long-term conservation challenges and biodiversity richness among the new generations through educational programs in schools surrounding the project area. Activities include school visits, providing educational material, salary payment for teachers, and support for wildlife clubs.",10
+2508_1,"Project Area Description: The project consists of a 99,035.20 hectares total Project Area of protected native forests located in the municipality of Lábrea, which has a high deforestation rate. The project is not located within a jurisdiction covered by a jurisdictional REDD+ program.",15
+2508_2,"Deforestation Trends: There has been a consistent year-on-year increase in deforestation in the State of Amazonas, with a 147% overall increase from 2009 to 2018. Factors contributing to deforestation include increase in prices for agricultural products, major infrastructure works, and weakening of environmental regulations.",15
+2508_3,"Threats to the Project Area: The project area is at risk of deforestation due to the expansion of roads, land grabbing, and illegal logging. There is also a history of illegal land occupation in the region.",15
+2508_4,"Project Activities: The project conducts activities such as Sustainable Forest Management, cattle farming, and no economic activity on its properties. Surveillance bases have been installed to combat deforestation, and more are planned. The project also aims to fight leakage sources through proactive initiatives.",15
+2502_1,"Project diffusion: Promote the diffusion of the project through workshops, brochures, and diffusion programs.",6
+2502_2,FMU Protection Integral Plan implementation: Implement the protection integral plan for the FMU (Forest Management Unit).,0
+2502_3,Satellite monitoring and field assessment of sectors with risk of invasion: Monitor sectors with a risk of invasion using satellite monitoring and field assessments.,5
+2502_4,Support pilot sustainable productive initiatives of surrounding communities: Support pilot initiatives by surrounding communities to reduce the expansion of agrarian activities and improve livelihood conditions.,4
+2502_5,Strengthen/develop skills and capacities in family members and local company workers: Strengthen and develop skills and capacities in family members and local company workers who are part of selected projects.,4
+2502_6,"Participate in dialogue spaces and management of Protected Areas: Participate in dialogue spaces and contribute to the management of Protected Areas, including the Territorial Reserve Madre de Dios.",9
+2502_7,Promote activities to protect ANP and PIACI territories: Promote activities with entities to protect ANP (National Park) and PIACI (isolated and initially contacted indigenous people) territories.,10
+2502_8,Promote activities to protect emblematic fauna and flora species: Promote activities with entities to protect emblematic fauna and flora species.,10
+2502_9,Promote activities to contribute to the sustainable development of the population: Promote activities with entities to contribute to the sustainable development of the population prioritized by the Consulting Committee of Community Relationship.,4
+2502_10,Implement Reduced Impact Logging techniques in the FMU: Implement Reduced Impact Logging techniques in the Forest Management Unit (FMU) to ensure a healthy wildlife population.,0
+2502_11,"Develop and implement mechanisms for the diffusion of environmental education: Develop and implement mechanisms to diffuse environmental education within children, teenagers, and surrounding communities.",10
+2373_1,Conserving the region in Amazonas state,1
+2373_2,Avoiding unplanned deforestation,1
+2373_3,Monitoring the area,5
+2373_4,Mapping deforestation,1
+2373_5,Partnering with education and research institutions,13
+2373_6,Involving surrounding communities,14
+2373_7,Minimizing invasions and illegal deforestation,1
+2373_8,Increasing satellite monitoring,5
+2373_9,Overflight,5
+2373_10,On-site monitoring posts,5
+2373_11,Socio-environmental education,14
+2373_12,Community involvement,14
+2373_13,Implementing improvement actions,13
+2373_14,Maintaining the SocialCarbon Standard,12
+2293_1,"Preventing large-scale unsustainable industrial timber harvesting and production: The project proponent will prevent large amounts of forest degradation by preventing large-scale unsustainable industrial timber harvesting and production, reducing GHG emissions.",15
+2293_2,"Monitoring and preventing illegal logging: The project will monitor the region to identify and prevent further illegal logging, reducing deforestation caused by secondary agents of deforestation and GHG emissions.",15
+2293_3,"Providing electricity through sustainable means: The project will provide electricity in the region through solar, water, or geothermal means, reducing the demand for logged or harvested firewood and indirectly reducing the supply of wood products by providing alternative livelihood options.",2
+2293_4,"Increasing access to co-benefits: The project will increase access to co-benefits such as education, technology, clean water, and healthcare in the region, expanding opportunities for alternative livelihoods and indirectly decreasing pressure on local forests.",2
+2293_5,"Supporting clan business ventures and economic opportunity: The project will support clan business ventures and economic opportunities through sustainable options, offering alternative livelihoods that do not result in damage to the forest.",2
+2293_6,"Implementing safeguards and promoting stakeholder involvement: The project will implement safeguards to ensure stakeholder involvement, including creating leadership roles for women and involving women in decision-making processes, reducing deforestation risk by increasing stakeholder support.",2
+2293_7,"Facilitating the formation and meetings of committees: The project will facilitate the formation and meetings of committees within each PAI to build capacity, distribute project benefits fairly, and provide alternative livelihood options, reducing the need for income from secondary deforestation.",2
+2278_1,"Identification of productive projects in the surrounding communities: The project will identify productive projects in the surrounding communities, in agreement with local settlements, to ensure appropriateness and community ownership.",2
+2278_2,"Capacities strengthening of stakeholders’ organizations: The project will strengthen the technical, entrepreneurial, organizational, and commercial capacities of stakeholders' organizations to support the success of productive initiatives.",4
+2278_3,"Promotion of sustainable productive projects: With the enabling conditions of identified projects and strengthened capacities, the project will promote the implementation of sustainable productive projects.",4
+2278_4,"Implementation of research projects: In addition to productive activities, the project will implement research projects to improve techniques, develop new raw materials and processes, and maximize the value obtained from the productive activities.",6
+2278_5,"Design of a protection plan of the project area: The project will design an integrated protection plan for the project area to diminish the risk of illegal activities, such as land clearance, illegal logging, and forest fires.",15
+2278_6,Building/improvement of control and surveillance infrastructure: The project will build new control and surveillance infrastructure or improve existing ones as part of the protection plan.,5
+2278_7,"Periodical patrolling: Regular patrolling will be conducted to identify anthropogenic actions that cause deforestation or degradation, such as agrarian or settlement purposes and illegal logging.",15
+2278_8,"Forest fire prevention patrolling: Specific patrolling will be carried out to detect and prevent forest fires, particularly those caused by neighboring agrarian plots.",5
+2278_9,"Land demarcation, border maintenance, and signaling: The project will earmark the concession borders with milestones and maintain them periodically to clearly indicate the boundaries and enforce restrictions.",5
+2278_10,"Socialization of REDD+ project: The project will conduct meetings with public and private stakeholders to explain the role of the REDD+ project and its positive impacts, particularly on climate change.",2
+2278_11,"Dialogues about environmental crimes and legal framework: The project will organize meetings to share and train stakeholders about the legal framework related to forests, emphasizing types of environmental crimes and associated sanctions.",11
+1953_1,Enactment of the resource management plan (RMP),0
+1953_2,Financial distribution and support for social developmental activities,14
+1953_3,Implementation of a monitoring program,5
+1953_4,Promotion of sustainable economic activities,13
+1953_5,Integration of land management into the socioeconomic and political climate,11
+1953_6,"Fortification of management, governance, and technical capacities",13
+1953_7,Capacity building and training,13
+1953_8,Minimization of illegal activities,1
+1953_9,Promotion of community participation,14
+1953_10,Development of businesses through external funding,13
+1953_11,Diversification of food through agroforestry practices,8
+1953_12,Improvement of livelihoods through capacity building,13
+1953_13,Environmental monitoring and scientific research,5
+1953_14,Establishment of partnerships with universities and research institutions,13
+1953_15,Implementation of long-term biodiversity monitoring,10
+1953_16,Conducting scientific research on key species and their importance,10
+1953_17,Construction of eco-bridges for Capuchin monkeys,1
+1953_18,Mitigation of impacts on regional biodiversity,10
+1953_19,Engagement of the local community in biodiversity monitoring,10
+1953_20,Preservation of threatened species,1
+1900_1,"Enactment of the Makame WMA Resource Management Plan: The project aims to support the implementation of the Makame WMA Resource Management Plan by distributing finances, providing support, and implementing a monitoring program.",10
+1900_2,Implementation of project activities by the Authorized Association on behalf of the WMA: The project activities will be implemented by the Authorised Association on behalf of the WMA.,6
+1900_3,Development of project activities through The Nature Conservancy's Conservation Action Plan Methodology: The project activities were developed through The Nature Conservancy's Conservation Action Plan Methodology in a workshop held in Makame.,10
+1900_4,"Participation of stakeholders in the Conservation Action Plan workshop: Stakeholders, including Makame WMA leadership, representatives from the Authorized Association Consortium (AAC), and various community groups, participated in the Conservation Action Plan workshop.",10
+1900_5,"Creation of a theory of change: The project has developed a theory of change that outlines the causal relationships between project activities, outputs, outcomes, and impacts.",6
+1900_6,"Mapping of project activities to the theory of change: The project has mapped the project activities to the theory of change, showing how each activity contributes to the desired outcomes and impacts.",6
+1897_1,"Increase local capacity and resources for effective forest management: Training village committees in good governance and project management, increasing the number of Village Game Scouts (VGS), providing training and resources to VGS, training VGS on forest law enforcement and forest inventory, including fire management in village forest reserves, and training community members and leaders on good governance of natural resources and gender equity.",11
+1897_2,"Improve local livelihoods for villagers, including marginalized and vulnerable groups: Providing carbon revenues to support village development, technical support for tree plantations, land use planning for legal farming and grazing, training and grants to Community Conservation Banks (Cocoba) for micro-finance, and training on entrepreneurship to women's groups and young mothers.",2
+1897_3,"Provide quality reproductive health: Conducting counseling on reproductive health, supporting training of trainers on reproductive health issues, raising awareness and access to reproductive health choices, and improving women's reproductive health.",4
+1882_1,"Design and development of strategies for organizational strengthening: This activity involves designing and developing strategies to strengthen the organization within the project area. It includes applied research, promotion of alternative production techniques, and improvement of agricultural practices.",4
+1882_2,"Environmental education and training: This activity focuses on implementing programs, agreements, or contracts for environmental education in the project area. It includes supporting local authorities, developing joint environmental activities, and promoting access to formal or non-formal education programs.",10
+1882_3,"Biodiversity monitoring and restoration: This activity involves monitoring biodiversity and restoring ecosystems within the project area. It includes maintaining dialogue between project stakeholders, carrying out campaigns to inform about the project, and training residents in environmental topics.",10
+1882_4,"Organization and governance: This activity aims to improve the capacities and organization level of the residents within the project area. It includes improving offices and conservation stations, coordinating actions with authorities and residents, and establishing patrols to guard against illegal logging.",11
+1882_5,"Controlling migration: This activity focuses on assisting residents in developing land-use plans and clarifying the inexistence of 'free lands' within the project area. It includes raising awareness about the forest's potential and limitations, supporting authorities in land-use regulatory compliance, and providing technical support to residents.",11
+1799_1,Training for forest management: Develop training and workshops to strengthen the capacities of community members to properly manage their forest resources.,11
+1799_2,Training for agroforestry systems: Provide training to community members on the development of agroforestry systems to avoid deforestation and forest degradation and promote food security and community income.,8
+1799_3,Training for the use of shiringa: Offer training to community members on the use of shiringa as a sustainable resource.,3
+1799_4,Training for piscigranjas installation: Conduct trainings for community members on the installation and management of piscigranjas.,3
+1799_5,Training for crafts development: Provide training for community members in the development of crafts.,4
+1799_6,Training for control and surveillance: Deliver training to community members to strengthen their control and surveillance capabilities.,5
+1799_7,Training for economic resources management: Provide training to community members on the management of economic resources for control and surveillance activities.,11
+1799_8,Acquisition of equipment for control and surveillance: Acquire equipment to increase the number of brigades for control and surveillance activities.,5
+1799_9,Development of early warning system: Develop an early warning system for control and surveillance in a participatory manner.,5
+1799_10,Promotion of participation and leadership of women: Promote the participation and leadership of women in community activities.,4
+1799_11,Organizational management training: Provide training on organizational management to strengthen community committees.,4
+1799_12,Update of management documents: Update community management documents to ensure effective forest governance.,11
+1799_13,Generation of strategic alliances: Establish strategic alliances with external institutions to support the objectives of the project.,4
+1775_1,"Reducing poverty through social development, enhanced rights, governance empowerment, and improved livelihoods.",13
+1775_2,Implementing conservation agriculture to reduce emissions from farming and prevent soil nutrient depletion.,8
+1775_3,Diversifying income streams through non-timber forest products such as honey production.,8
+1775_4,Reducing habitat loss and improving wildlife corridors through increased monitoring and anti-poaching activities.,1
+1775_5,Developing Participatory Forest Management Plans (PFMP) and Community Forest Management Agreements (CFMA) in consultation with local communities.,0
+1775_6,"Using FPIC meetings to develop community livelihood profiles, prioritize community needs, and design project interventions.",2
+1775_7,"Providing support for improvement of social services such as school infrastructure, health care centers, safe drinking water, and river crossing facilities.",14
+1775_8,"Supporting improvement of agriculture, horticulture, apiculture, and aquaculture production techniques and creating market linkages.",8
+1775_9,Supporting school environmental education programs and creating job opportunities for the local community.,14
+1775_10,Developing agroforestry demonstration plots and training farmers in conservation farming techniques.,8
+1775_11,"Establishing apiary demonstration plots, training lead farmers in hive construction and maintenance, and distributing beehives to participating households.",8
+1775_12,Supporting the development of value chains in non-timber forest products and promoting improved apiculture techniques.,8
+1775_13,"Providing support for infrastructure development, including the construction and rehabilitation of school and clinic infrastructure.",14
+1775_14,Improving water supply through drilling boreholes and improving existing wells.,13
+1775_15,"Conducting regular patrols, aerial monitoring, and anti-poaching activities to protect the project area from encroachment and poaching.",1
+1775_16,Monitoring high conservation value species and adapting management strategies based on wildlife populations.,10
+1775_17,Generating employment opportunities for village scouts and reducing emissions through conservation efforts.,1
+1765_1,Strengthening governance: Support and/or strengthen farmer organizations or producers' associations in the area.,4
+1765_2,Technical assistance to improve production systems: Provide guidance and support to farmers in improving their production systems and implementing good agricultural practices.,4
+1765_3,Environmental education: Educate and raise awareness about environmental issues through visits to pilot farms and research on good agricultural practices.,4
+1765_4,"Establishment of pilot farms: Create pilot farms for livestock, passion fruit, beans, and jaggery (sugarcane product).",8
+1765_5,"Establishment of beehives: Set up beehives, develop beekeeping chain, and characterize honey and propolis in the biological corridor.",10
+1765_6,Establishment of cost-efficient burners and living fence trees: Install cost-efficient burners and plant living fence trees to reduce deforestation.,15
+1765_7,Implementation of revolving funds: Create revolving funds in municipalities to provide faster capital for farmers to invest in improving production systems.,4
+1765_8,Design and feasibility of the Environmental Center: Develop the design and feasibility of an Environmental Center in Marengo farm.,4
+1765_9,"Credit lines: Offer credit lines, microcredits, and revolving funds to provide capital for farmers to invest in production systems.",4
+1765_10,Payment for environmental services: Implement a system of payment for environmental services or conservation incentives to increase the value of standing forests and avoid deforestation.,15
+1765_11,"Market support: Support activities aimed at improving the added value of products, such as processing, certification, and finding new marketing chains.",4
+1765_12,"Governance, monitoring, and control: Strengthen social and technical skills, monitor deforestation, and implement community control measures to reduce deforestation.",11
+1765_13,Technical dialogues and institutional capacity strengthening: Promote technical dialogues between environmental regulatory institutions to generate early warnings of deforestation and strengthen forest governance.,11
+1398_1,"Other Programs: The project’s emission reductions have not been included in an emissions trading program or any other mechanism that includes GHG allowance trading. The project has not sought or received any other form of GHG-related environmental credit during this monitoring period. Moreover, it has not been registered or is seeking registration under any other GHG programs.",12
+1398_2,"Sustainable Development: The project is fully in line with national sustainable development, climate, forest and biodiversity priorities of Lao PDR. The project aligns with the Socio-Economic Development Plan (SEDP), the National Growth and Poverty Reduction Strategy (NGPRS), the National Climate Change Strategy, the National Biodiversity Strategy and Action Plan (NBSAP), the Forestry Strategy, and the Agricultural and Rural Development Strategy. The project contributes to the increase in forest cover of Lao PDR and adheres to REDD+ safeguards for biodiversity and local communities as agreed under the UNFCCC. The project also supports the Aichi targets of the Convention on Biological Diversity (CBD) by promoting the effective management and protection of important protected areas, sustainable agriculture, sustainable forest management, and the knowledge and customary use of biodiversity.",10
+1704_1,"Implementation of SALM activities for Beed Watershed: Promoting multiple environmental assets for smallholder farmers in the watershed area, such as improved carbon sequestration, sustainable water management, and livelihoods. Activities include implementing SALM practices such as residue/nutrient management, agronomic practices, and agroforestry.",17
+1704_2,Mobilizing farming community: Engaging with the farming community in developing a carbon sequestration project in the watershed development area.,2
+1704_3,Awareness creation for farming community: Educating the farming community about sustainable Agriculture Land Management (SALM) practices in the identified villages.,17
+1704_4,Planting trees in the identified watershed area: Planting at least 5 Lakh trees in the identified watershed area with identifiable geo tagging to ensure sustainability.,17
+1704_5,"Organizational set up of NISARG: Implementing the project through a participatory planning, monitoring, and evaluation approach with the NISARG and Village/Cluster Level Watershed Committee.",2
+1704_6,Field survey: Conducting field surveys to gather data and information for the project.,6
+1704_7,Capacity building: Conducting workshops and trainings to build the capacity of the farming community in SALM practices.,17
+1704_8,Soil testing report: Collecting and analyzing soil samples to generate soil testing reports.,17
+1704_9,Farmer survey data: Collecting data from surveys conducted with farmers to gather information about their practices and needs.,17
+1704_10,Support to Audit: Providing support and assistance in conducting audits for the project.,6
+1704_11,Supervision: Supervising and monitoring the project activities on-field and off-site.,6
+1704_12,Advisory Support: Providing advisory support and guidance to the project implementing team.,6
+1695_1,"Education, training and strengthening citizen participation: Strengthening environmental education and training, creating attitudes and behaviors that raise awareness among citizen participation in the conservation and protection of the environment and natural resources.",10
+1695_2,"Conservation, restoration and sustainable management of strategic ecosystems: Develop activities which foster conservation, restoration, administration and sustainable management of strategic ecosystems and biodiversity existing in the selected municipalities for REDD+ project through participatory processes and awareness.",10
+1695_3,"Crops improvements: Improve crops and marketing (production chains), through the identification of crops that are within the preferences of the participants, in order to characterize their productivity and recognize the inputs, tools and yields. Improving crop seeds involves obtaining high yields, improve soil conservation.",8
+1695_4,Home vegetable gardens: Promote food security with the implementation and use of complementary food systems.,8
+1695_5,Silvopastoral systems: Promote proper management of land dedicated to livestock through the implementation of low impact systems.,17
+1695_6,Ecotourism: Create an alternative sustainable development through the strengthening of ecotourism activities.,10
+1695_7,Cookstoves: Reduce degradation of the forests within the jurisdiction through the establishment of improved cookstoves.,11
+965_1,Site preparation: Weed control and intense grazing before tillage activities. Application of glyphosate one month before plantation operation. Livestock reintroduced after planting. Additional control applied after two years.,17
+965_2,Ant control: Elimination of ant nests through the application of ant-killer. Fipronil applied next to ant paths. Control starts 4 months before planting and ends 6 months after planting.,17
+965_3,Soil preparation: Sub-soiling at a depth of 50-60 cm. Plowing after preparation of a mound of 20-25 cm. Tillage conducted within planting strips. Avoidance of tillage in sloppy and rocky areas.,17
+965_4,"Planting: Manual planting with monitoring for plant burial, bare-root, twisted root, proper spacing. Re-planting of seedlings not surviving. Objective is to achieve 90% survivor rate.",17
+965_5,Fertilization: Manual application of fertilizer. Starting dose applied 10 days after planting. Fertilization based on soil chemical analysis and identified deficiencies.,17
+965_6,Silviculture: Selection of 200 trees per hectare for sawn timber and/or veneer. Two pruning operations at ages 5 and 8 to reach specified heights. Commercial thinning at ages 10 and 20. Final harvest planned at age 30.,0
+1674_1,Conservation of the forest in the project area,15
+1674_2,Improvement of reserve management and anti-poaching activities,1
+1674_3,Development of agro-ecology techniques,8
+1674_4,Improvement of cashew tree cultivation and value chain,8
+1674_5,Anti-poaching activities,1
+1674_6,Fire management,1
+1674_7,Reintroduction of wildlife and population monitoring,5
+1674_8,Management of human/elephant conflicts,1
+1674_9,Development of tourism,13
+1674_10,Game hunting area,1
+1674_11,Implementation of agro-ecological systems,8
+1674_12,Creation of land use plans,11
+1674_13,Implementation of the Mozbio project,16
+1311_1,Creation and implementation of a protected area,1
+1311_2,Stakeholder participation in protected area creation,1
+1311_3,Definitive protection status,13
+1311_4,Promoting sustainable land uses,1
+1311_5,Governance structure,13
+1311_6,Conservation agreements and small grants,1
+1311_7,Fire monitoring and forest loss monitoring,5
+1311_8,Adaptive management,13
+1654_1,"Protection of forests in the municipality of Lábrea: The project aims to protect forests located in the municipality of Lábrea, which has a high deforestation rate. The project aims to prevent deforestation and the expansion of land use changes in the area.",15
+1654_2,"Training and organization of fire brigades: The project will organize and train fire brigades from the local community. These brigades will help prevent and respond to forest fires, contributing to the protection of the forests.",11
+1654_3,Technical training on sustainable cattle raising: The project will partner with local institutions to provide technical training on sustainable cattle raising. This initiative aims to improve the practices of cattle ranching in the area and provide alternative livelihood opportunities for the local community.,3
+1654_4,Forest management courses: The project will offer courses on forest management methods to the local community. This will help build capacity and provide opportunities for employment in the proposed project.,11
+1654_5,"Support to SEMA - AM: The project will support the Amazonas State Secretariat of Environment (SEMA - AM) by providing visibility, methodological advances, and surveillance posts. This support aims to mitigate illegal logging and land occupation in the region.",15
+1654_6,Fight against illegal land occupation: The project will involve the local community in monitoring and reporting illegal land occupation and potential illegal logging. This activity aims to protect the land and prevent encroachment by land grabbers.,15
+1654_7,Feasibility study for a small non-wood product processing plant: The project will conduct a feasibility study to determine the potential for establishing a small plant for processing non-wood products. This initiative aims to create new income opportunities for the local population and promote sustainable forest use.,0
+1654_8,Biomass inventory and biodiversity assessment: The project will conduct a biomass inventory and assess the fauna and flora in the project area. This will help monitor carbon stocks and biodiversity conservation efforts.,10
+1113_1,"Raise Project Awareness: The project proponents will hold community meetings to raise awareness about the project, its goals, and the negative impacts of deforestation. They will also discuss the financial benefits of practicing sustainable agriculture and the types of social projects and programs that could be implemented.",2
+1113_2,Hire Project Manager: The project will hire a project manager to oversee the implementation of activities and ensure smooth coordination among stakeholders.,6
+1113_3,Patrol and Monitor Deforestation: The project will employ forest monitors who will regularly patrol the project area to detect and document instances of deforestation. The project proponents will then take appropriate actions to counteract reported deforestation.,15
+1113_4,Provide Agricultural Extension Services: The project will provide agricultural extension services to the communities in and around the project area. This will include onsite trainings and assistance from partner organizations to help communities intensify agriculture and reduce their dependence on forest resources.,4
+1113_5,"Support Local Farmers Association: The project will establish and financially support a local farmers association to modernize community infrastructure, improve production, and facilitate better market access.",4
+1113_6,Help Communities Obtain Land Tenure: The project will assist families living on the project property in obtaining land tenure and recognizing their productive use of the land. This will provide communities with formal recognition of their land rights and access to credit.,2
+1113_7,"Profit-Sharing of Carbon Credits: The project will primarily use carbon revenue to develop social projects and programs. However, communities that voluntarily join the project, successfully avoid deforestation, and reside within the project property will receive a small share of the carbon revenue.",2
+1113_8,"Establish a Project Headquarters: The project will have a dedicated headquarters that will serve as a local project office. It will provide facilities for community meetings, teaching courses, presentations, and project storage.",6
+904_1,Forest conservation: Implementing measures to prevent degradation and deforestation within the project area.,15
+904_2,Reforestation: Planting trees in areas where deforestation has occurred to restore the forest cover.,15
+904_3,Improved land management: Implementing sustainable land management practices to reduce soil erosion and improve soil health.,17
+904_4,Community engagement and capacity building: Working with local communities to raise awareness about the importance of forest conservation and providing training on sustainable land management practices.,11
+904_5,Monitoring and evaluation: Regularly monitoring and evaluating the effectiveness of the project activities in reducing degradation and deforestation.,15
+856_1,Corrective Action Request CAR 2 planned: Planned corrective action request CAR 2.,12
+856_2,Monitoring activities: Continual monitoring activities included in the Monitoring Plan.,6
+856_3,"Governance capacity, enforcement and management, and economic alternatives and incentives: Activities related to governance capacity, enforcement and management, and economic alternatives and incentives.",13
+856_4,Clarifications and corrective action requests: Clarifications and corrective action requests made regarding monitoring frequency and plot measurements.,12
+856_5,Corrective Action Request CAR 3: Corrective action request CAR 3.,12
+856_6,Dissemination of monitoring results: Explanation on how monitoring results have been disseminated and made publicly available on the internet.,5
+1112_1,"Raise Project Awareness: The project will raise awareness among the local communities about the project's goals and objectives, the negative impacts of deforestation, and the benefits of sustainable agriculture.",2
+1112_2,Hire Project Manager: The project will hire a project manager to oversee the implementation of activities and ensure the smooth operation of the project.,6
+1112_3,Patrol and Monitor Deforestation: The project will conduct regular patrols and monitoring activities to detect and prevent deforestation in the project area.,15
+1112_4,"Provide Agricultural Extension Services: The project will provide agricultural extension services to the communities, offering training courses and assistance in improving agricultural practices.",4
+1112_5,"Support Local Farmers Association: The project will establish and financially support a local farmers association, providing assistance in modernizing community infrastructure, improving production, and facilitating market access.",4
+1112_6,"Help Communities Obtain Land Tenure: The project will assist community members in obtaining land tenure and formal recognition of their land use, which will reduce greenhouse gas emissions and provide communities with greater responsibility and ownership over their land.",2
+1112_7,"Profit-Sharing of Carbon Credits: The project will share a portion of the carbon credit revenues with the communities, providing them with financial incentives for successful participation in the project and avoiding deforestation.",2
+1112_8,"Establish a Project Headquarters: The project will establish a dedicated project headquarters, which will serve as a centralized office for project activities, community meetings, training courses, and project storage.",6
+958_1,Description of the Project Activity: The project area is covered by old-growth forest.,15
+852_1,Acquisition and protection of forest lands threatened by agricultural conversion,1
+852_2,Avoidance of deforestation through land purchase,1
+852_3,Selective logging with Smartwood certification,0
+1218_1,Avoiding Unplanned Deforestation and Degradation (AUDD): The project aims to avoid unplanned deforestation by implementing a strategy described in five main components.,15
+1218_2,"Agroforestry: The project involves the cultivation of various fruit and cover crops, combined with annual crops commonly used in the region. It also includes the use of nursery, foliar fertilizer, and effective microorganisms.",8
+1218_3,Carbon Monitoring: The project includes carbon monitoring activities throughout the crediting period of 2011-2031.,12
+1218_4,Reappraisal of the Baseline Scenario: The project involves the reappraisal of the baseline scenario and update of the VCS-PD.,12
+1218_5,"Productive Activities: The project includes the development of a zoning study, use and management of community forests, palm trees, and chestnut. It also involves the improvement of the nursery for the production of forest species.",11
+1218_6,Agroforestry Technical Training: The project includes training on agroforestry techniques.,8
+1218_7,Development of Sustainable Agroforestry Plots: The project involves the design and implementation of sustainable agroforestry plots.,8
+1218_8,Implementation and Maintenance of Ecotourism Routes: The project includes the implementation and maintenance of ecotourism routes in the community.,10
+1218_9,Implementing a Communal Hunting: The project involves the implementation of communal hunting activities.,10
+1218_10,Limiting Legal Boundaries: The project includes the physical study of limiting legal boundaries and the implementation of equipment custodians and community forest guards.,11
+1218_11,"Forest Governance: The project includes the development and updating of community life plans, statutes, and internal regulations. It also involves the implementation of zoning of communal land and training of community leaders.",11
+1218_12,Communication and Dissemination: The project includes the development of a communication strategy on the management and use of natural resources. It also involves the creation of outreach materials and radio broadcast programs.,10
+1218_13,"Conservation Agreements: The project includes the preparation, design, and implementation of conservation agreements.",10
+1566_1,"Description of the project activities: The project activities were derived from the analysis of the problem and include the installation of permanent plots for carbon stock estimation, data collection and processing using the Information System of the REDD+ project, and the evaluation of environmental and socioeconomic impacts.",12
+1566_2,"Data Collection, Processing and Report: Data and parameters are defined in the Matrix of Logic Structure (MLS) and collected, processed, reported, and disseminated using the Information System of the REDD+ project. The MLS allows for the evaluation of compliance with project objectives, results, and indicators. Information collected in the field is systematized by professionals in charge of monitoring and evaluation.",12
+1566_3,Environmental and Socioeconomic Impact Assessment: The project assesses the environmental and socioeconomic impacts through the analysis of potential positive and negative impacts on biodiversity and the living conditions of indigenous communities. The impacts are evaluated using a rating scale and the results show that the project has a positive benefit for biodiversity and improves the living conditions of indigenous communities.,10
+1566_4,"Stakeholder Engagement: The project involves stakeholder engagement through consultations and meetings with primary stakeholders, including indigenous communities, ACATISEMA Association, teachers, colonists, mining companies, government institutions, and other organizations. The feedback and opinions of stakeholders are recorded, categorized, and addressed in subsequent meetings.",6
+934_1,Stopping planned legal and reducing unplanned illegal logging,1
+934_2,Agricultural improvement activities,8
+934_3,Village-centered capacity building through Local Development Committees (CLDs),13
+934_4,Infrastructure and socio-economic development activities,13
+934_5,Conservation management of concession,1
+934_6,Wood energy plantations,1
+934_7,Forest monitoring,5
+934_8,Agroforestry nursery and demonstration plots,8
+934_9,Agricultural diversification,8
+934_10,Local Development Committees,13
+934_11,School construction,14
+934_12,Mobile medical clinic,16
+875_1,Qualification of the local community to engage in forest stewardship activities within the FSM farm and preparation for Forest Stewardship Council (FSC) certification.,0
+875_2,Long-term protection of the property area and opposition to land grabbers.,1
+875_3,Improvement in local security through project monitoring and public sharing of documentation.,5
+875_4,Organization of forest fire brigades.,11
+875_5,Creation of incentives to recover degraded areas surrounding the property.,1
+875_6,Feasibility study for setting up a small plant for processing non-wood products and organizing a technical forestry school in the municipality of Colniza.,0
+875_7,Collaboration with SEMA-MT to create a replicable environment management model in other potential REDD project areas.,12
+875_8,Monitoring strategy combining satellite images with field visits to monitor deforestation in the Amazon region.,15
+875_9,Regular revision of the project area through satellite images and on-site surveillance to ensure forest preservation.,5
+875_10,"Development of a new model for the exploitation of forest potential in the region, associated with the preservation of natural resources and sustainable economic activities.",11
+875_11,Monitoring of carbon inventories within the project limits.,12
+875_12,Specific field inventory in 2010 to determine the average amount of CO2 emissions and above-ground biomass in the local forest.,12
+868_1,"Implementation of the Forest Monitoring and Surveillance System: Concessionaires will organize a Ground Team of Monitoring and Surveillance to monitor and control illegal logging activities, migratory agriculture, and mining activities in the project area. Checkpoints will be located in strategic places, and a weekly preventive patrolling system will be implemented.",5
+868_2,"Training deforestation agents in alternative and sustainable productive initiatives: The project will provide training workshops to miners and other deforestation agents in agroforestry, management of forestry products, fish farming, and the elaboration of protocols. The goal is to promote sustainable activities and limit negative impacts on the environment.",15
+868_3,"Implementation of a Tree Nursery: A permanent tree nursery will be established to produce 100,000 seedlings per year. Actions include the selection of seed-trees, seeds collection, construction of the nursery, production of seedlings, and training on seedling production.",8
+868_4,Organization and legal formalization of grassroots organizations: The project will assist Brazil Nut Concessionaires in organizing and legally formalizing their grassroots organizations. This includes implementing an Early Alert System and a Conflicts and Complaints Management System.,4
+868_5,"Implementation and Start-up of the Brazil Nut Processing Plant: The project will establish a Brazil Nut processing plant to improve the income of concessioners. This includes certification of products and processes, training in forestry management, reduced-impact techniques, and cooperation agreements with the government and local entities.",8
+868_6,Improve Forestry Management in Brazil Nut Concessions: The project will work on improving forestry management in Brazil Nut concessions to guarantee and maintain ecological integrity and contribute to the preservation of biodiversity. This includes improving forest surveillance and implementing forestry management practices.,15
+844_1,Development of specific project activities,6
+844_2,Sustainable Forest Management,0
+844_3,Maintenance of FSC Certification,0
+844_4,Commitment to responsible trade,1
+844_5,REDD Project activities,12
+844_6,Sustainable development of rural producers,8
+1047_1,Creation of protected area: The project activity involves the creation and implementation of a protected area that encompasses the project area. The protected area is managed mainly for the sustainable use of natural resources and aims to stop deforestation.,15
+1047_2,"Management and zoning of protected area: The project activity includes the management and zoning of the protected area. It involves the establishment of a co-managed, multiple-use protected area where local communities play a prominent role in managing the forests. The area is divided into strict conservation zones and buffer zones.",11
+1047_3,Conservation agreements: The project activity involves the establishment of conservation agreements between CI Madagascar and local communities. These agreements aim to achieve measurable forest conservation results while compensating communities for the forgone benefits of forest use.,10
+1047_4,Small grants: The project provides small grants to local community associations to undertake income-generating activities that contribute to forest conservation outcomes. The grants are defined by the communities themselves and aim to create economic opportunities for local people.,2
+1047_5,Sustainable tourism: The project focuses on developing sustainable tourism that provides economic opportunities without negative environmental or social impacts. It aims to finance conservation through high-end tourism concessions and create jobs linked to tourism.,10
+1047_6,"Integrated health, population, and environment programme (PHE): The project addresses ecosystem-related health problems by improving access to health services and building capacity to deliver these services. It includes training community-based agents to provide assistance on health, nutrition, water, sanitation, hygiene, and family planning.",14
+1047_7,Fire alerts and real-time monitoring of forest loss: The project utilizes satellite-based fire monitoring systems to provide daily fire alerts for the region. It also carries out systematic monitoring of forest loss using satellite imagery. These monitoring tools enable the project to pinpoint problem areas and focus activities within them.,5
+1133_1,"Protecting the forest and avoiding harvesting: The project will use carbon financing to protect the forest and avoid harvesting of the forest for valuable timber and conversion to agriculture. This will be achieved by maintaining and increasing a robust presence at the main facility, implementing regular patrols to prevent incursions and illegal logging, and implementing an integrated monitoring program for carbon and biodiversity.",15
+1133_2,"Hiring and training additional staff: The project will hire and train additional staff from the local community of Puerto Miguel to staff the facility, patrol the forest and river, and monitor the forest biomass and biodiversity.",15
+1133_3,Supporting health care for local communities: The project will continue supporting health care for local communities by providing facilities for Amazon Promise and furnishing monetary support to the local clinic in Puerto Miguel.,14
+1133_4,"Contracting monitoring, carbon sales, and finances: Lawrence Bishop will be responsible for hiring contractors for future monitoring, carbon sales, and finances in the United States. Mr. Bishop is also a licensed commodities broker and will be responsible for marketing, selling, and managing funds derived from carbon offsets sales.",12
+1133_5,Technical support for project design and monitoring: The Virginia Tech Conservation Management Institute (CMI) will serve as technical support for project design and monitoring. CMI has extensive experience in the development and implementation of carbon offset projects and monitoring protocol development and implementation.,12
+1133_6,"Management of infrastructure, forest protection, and business matters: Mr. Norman Walters will be responsible for the management of infrastructure, forest protection at Yacumama, and business matters within the country of Peru. He will also serve as the diplomatic liaison between Yacumama and the local communities.",9
+1133_7,Day-to-day operations at Yacumama: Mr. Walters will be responsible for the day-to-day operations at Yacumama during the course of the project.,9
+1094_1,"Conservation of forest area: The principal objective of the project is to conserve 97,007.22 ha of forest area within the five Ecomapuá properties through avoidance of unplanned deforestation.",15
+1094_2,Baseline reassessment: The baseline is reassessed every 10 years to account for changes in deforestation projections. Corrections were made during the first baseline period.,15
+1094_3,"Predicted avoided deforestation: The ex-ante estimate for the predicted avoided deforestation within the project area over the 30 year project lifetime would be 1,157 ha.",15
+1094_4,"Avoided emissions: The avoided emissions due to the project are expected to be 851,933 tCO2e across the project crediting period.",12
+1094_5,Community capacity building: Capacity building activities have been conducted in partnership with the Federal Rural University of Amazônia (UFRA) and Petrobras Company to enhance family agricultural production.,4
+1094_6,Construction of support home and school: A support home and the local school located within the leakage management area have been constructed.,14
+1094_7,"Construction of aviculture structure, vegetable gardens, fish tanks, and apiaries: Aviculture structure, vegetable gardens, fish tanks, and apiaries have been constructed to support alternative livelihood projects.",8
+1094_8,Building of forestry nursery: A forestry nursery has been built in the leakage management area.,0
+1094_9,Donation of motor boat: A motor boat has been donated to the community for transportation.,16
+1541_1,Signature and enforcement of cooperation agreements: This project activity seeks to enforce the currently applicable Guatemalan Law on Protected Areas by securing land use rights for communities that have historic land rights within the park.,9
+1541_2,Establishment of a program of patrols and surveillance subcommittee for each organization within the park: This project activity aims to establish a program of patrols and surveillance subcommittees for each organization within the park to ensure forest protection and biodiversity.,5
+1541_3,Workshops about fire management in the communities: This project activity involves conducting workshops in the communities about fire management to prevent forest fires.,11
+1541_4,Program for conservation of habitats linked to endangered species and development of a plan for conservation of HCV: This project activity focuses on implementing a program for the conservation of habitats linked to endangered species and developing a plan for the conservation of High Conservation Value (HCV) areas.,10
+1541_5,School of agroforestry promoters for enhancing practices sustainable agriculture in the communities: This project activity involves establishing a school of agroforestry promoters to enhance sustainable agriculture practices in the communities.,8
+1541_6,Identification of alternative NTFPs and market study on each case: This project activity aims to identify alternative Non-Timber Forest Products (NTFPs) and conduct market studies on each case.,0
+1541_7,Development of a census of populations of species of flora/fauna that have historically been subject to commercial extraction and their most common geographical location: This project activity involves developing a census of populations of species of flora/fauna that have historically been subject to commercial extraction and determining their most common geographical locations.,10
+1541_8,Development of sustainable forest management plans for small holders and communities: This project activity focuses on developing sustainable forest management plans for small holders and communities.,0
+1541_9,Establishment and reinforcement of a program of micro-credits and the promotion of conservation and forest management: This project activity aims to establish and reinforce a program of micro-credits and promote conservation and forest management.,10
+1541_10,Human resources plan focusing on contracting permanent personnel (not seasonal jobs): This project activity involves creating a human resources plan that focuses on contracting permanent personnel instead of seasonal jobs.,6
+1541_11,Community empowerment and capacity building: This project activity aims to empower and build the capacity of the communities through periodical workshops and events on environmental education and the socialization of environmental legislation.,10
+1541_12,Workshops about sexual and reproductive health in communities: This project activity involves conducting workshops in communities about sexual and reproductive health to enhance knowledge and practices.,4
+1541_13,Workshops on water and waste management: This project activity focuses on conducting workshops on water and waste management in communities to improve practices and access to proper facilities.,4
+1384_1,"Land use monitoring and zoning enforcement conducted by the state: Monitoring the staffing of checkpoints, establishment of new checkpoints, park guard patrols, and compliance with land use plans.",5
+1384_2,Land use planning and zoning: Monitoring the designated agricultural areas and ensuring compliance with land use plans.,11
+1384_3,"Forest fire control and prevention conducted by the state: Monitoring forest fires through remote sensing and overflight data, and implementing fire control activities.",5
+1384_4,"Reclamation and restoration of illegally deforested land: Identifying and reclaiming illegally deforested land, and monitoring the restoration activities.",15
+1384_5,Maintain high conservation value areas through FSC certification: Ensuring compliance with FSC certification requirements for maintaining high conservation value areas.,0
+1384_6,Support for institutional and legal mechanisms to improve forest governance: Monitoring and reporting on advances in institutional and legal mechanisms for improving forest governance.,11
+1532_1,Providing inputs and training on climate-smart agricultural practices to smallholder farmers and offering them premium prices for their surplus commodities when local compliance to these practices is demonstrated.,8
+1532_2,"Selling healthy, pesticide-free, value-added food products under the brand It's Wild! to sustain the project.",8
+1532_3,Encouraging community leaders to develop plans with zoned conservation areas to reduce threats to forests and important wildlife and watershed resources.,11
+1532_4,"Promoting practices such as alley cropping, reduced tillage, use of crop residues for mulching, compost manure, green-manuring, soil and water conservation measures, row-planting, cover crops, and improved crop varieties to restore soil fertility, improve crop yields, build resilience to climate change, and reduce greenhouse gas emissions.",8
+1532_5,"Sensitizing, mobilizing, registering, and training groups of farmers on the Sustainable Agricultural Land Management (SALM) practices, allowing them to choose which practices to adopt and providing further training and guidance.",17
+1532_6,Promoting crop diversification to improve the resilience and sustainability of the farming system.,8
+1532_7,"Conducting surveys and measurements to assess the impact of the project on crop diversification, crop yields, and greenhouse gas emissions.",12
+1215_1,Identification of activities: The project activities have been identified.,6
+1215_2,"No areas of planned deforestation in reference area: Deforestation due to large-scale commercial agriculture, infrastructure, and mining projects is not included in the reference area for deforestation.",15
+1215_3,Use of a 10-km buffer around the project area: A 10-km buffer around the project area has been used to prevent spatial bias.,12
+1215_4,Management transfer process: A management transfer process has been initiated to transfer forest management responsibilities to local communities.,11
+1215_5,"Landscape factors: Various landscape factors such as forest types, soils, altitude, and slope classes have been considered.",17
+1175_1,Acquisition of the VCR and establishment of protected status: The project activity consists of acquiring the VCR and establishing protected status for it. This includes seeking government designation and securing a permanent conservation easement.,10
+1175_2,"Advocacy to stop construction of the Carretera Costera: The project activity involves advocating to stop the construction of the Carretera Costera, a coastal highway. This includes participating in coordination committees and meetings with government authorities.",15
+1175_3,Stopping conversion of native forest to Eucalyptus plantations: The project activity focuses on stopping the conversion of native forest to Eucalyptus plantations. This includes canceling permits for conversion and conserving the native forest.,15
+1175_4,"Ongoing protection and management activities: The project activity involves ongoing protection and management of the project area. This includes implementing conservation and management plans, monitoring and research, social participation, control and monitoring, training, environmental education and outreach, resource management, infrastructure and equipment maintenance, forest fire prevention, and ecotourism programs.",10
+1403_1,Establish a ‘Payment for Ecosystem Services’ (PES) system to conserve remaining forest: The project aims to establish a payment system to incentivize forest conservation in the Atlantic Forest in Eastern Paraguay.,15
+1403_2,Make payments for ecosystem services for forest conservation to small holders: The project will provide payments to small holder communities living within the project boundary in Eastern Paraguay for forest conservation.,15
+1403_3,"Generate GHG emission reductions through reducing emissions from deforestation: By promoting forest conservation, the project aims to reduce greenhouse gas emissions from deforestation.",15
+1403_4,"Make payments for reforestation to qualifying small holders: In addition to forest conservation, the project will also provide payments for reforestation to qualifying small holders.",15
+1403_5,Set aside land as a forest reserve intended to be permanent: The project will designate certain areas of land as a permanent forest reserve.,15
+1403_6,"Allow sustainable off-take of wood fuel from the project area: Starting in year 6 of the project, a sustainable off-take of wood fuel will be allowed from the project area.",0
+1403_7,Provide extension services to enhance income and productivity from small-holder agriculture: The project will provide agricultural extension services to small holders to enhance their income and productivity from agriculture.,4
+1403_8,Provide support for sustainable forest management: The project will provide support for sustainable forest management to non-project forest areas and reforestation areas.,15
+1403_9,Involve Guyra Paraguay and World Land Trust in implementing the project: Guyra Paraguay and World Land Trust will be involved in the implementation and management of the project.,9
+963_1,Engage Local Communities: The project engages local communities by discussing the Purus Project in detail and signing a Declaration and a Memorandum of Understanding. Community members agree to assist in reducing deforestation and protecting the local environment.,2
+963_2,"Create Project Awareness: The activity involves creating project awareness in the project area, nearby communities and towns, and local and state organizations. This includes meetings with various organizations and individuals.",6
+963_3,Acquire Agricultural Extension Services: The project surveys the communities to determine the agricultural extension training courses of interest. The top ten courses are selected and purchased. The project also engages technical support from EMBRAPA and SENAR for onsite trainings.,4
+963_4,Help Communities Obtain Land Rights / Delineate Family Areas: The project assists community members in obtaining land rights and delineating family areas. The minimum area to be titled to each family is one hundred hectares.,2
+963_5,Initiate Patrols/Monitors of Deforestation: The project purchases a trike for monitoring and participates in training on its operation. Aerial monitoring of deforestation begins and the project plans to hire local patrols to monitor deforestation in high-risk areas.,15
+963_6,Plant Trees: The project plants trees to reforest non-forest areas. The first reforestation activities will be carried out within one hundred meters of the Purus River banks. The project also plans to restore forest cover in other non-forest areas using fruit trees and native species.,15
+963_7,"Share a Portion of Profits from Sale of Carbon Credits: At the end of the fifth year, the community will start receiving payments for environmental services based on the preservation of forests within their one hundred hectares. The carbon revenue will also fund community improvements.",2
+832_1,Conservation of forest area at Rio Capim Complex: The main objective of the project is to conserve the forest area at Rio Capim Complex through the cancellation of planned deforestation activities and limited forest management practices.,15
+832_2,Limited FSC certified Low Impact Logging practices: The project will continue limited forest management activities in the area under FSC certified Low Impact Logging practices.,0
+832_3,"Support sustainable social development and biodiversity: The company will intensify and improve its practices to support sustainable social development, maintenance, and improvement of biodiversity for the Rio Capim Complex.",10
+832_4,"Sustainable Forest Management with Low Impact Logging (SFMLIL): The project follows SFMLIL practices, including a 35-year forest cutting cycle and criteria for the selection of harvest trees.",0
+832_5,"Forest protection: The project includes actions for the protection of permanent environmental areas, preservation of hillsides and hydrological grid, and the implementation of fire prevention measures.",15
+832_6,"Compliance with laws and regulations: The project activities are undertaken in compliance with applicable laws and regulations, including national and state legislation for forest management.",11
+832_7,Ownership and legal rights: The project area is owned by CKBV and has legal right for forest management and carbon credits.,12
+832_8,"Leakage management: The project implements measures to minimize the risk of displacement of deforestation activities, such as new revenues from the sale of carbon credits.",15
+953_1,Identification of forested land in private ownership: Identifying forested land in private ownership that has no legal safeguard against deforestation and is likely to be converted to agro-pastoral use upon change of ownership.,11
+953_2,"Land purchase: Purchasing land by Guyra Paraguay with legal safeguards to ensure permanent protection of the biodiversity, environmental, and cultural qualities of the area.",9
+953_3,Granting of co-ownership with the local community: Granting co-ownership to the local community through a formal shared management agreement to ensure project permanence and provide social benefit.,2
+953_4,Shared management agreement: Signing a shared management agreement between Guyra Paraguay and the local community to maintain the project area under a conservation regime and retain its biodiversity and cultural values.,9
+953_5,Management plan development: Developing a management plan jointly by Guyra Paraguay and the local community with provision for regular update and review.,9
+953_6,"Protection of the project area: Protecting the project area from incursion, fire, and unauthorized extraction of forest resources by project staff based in Bahia Negra and with an outstation established on site.",15
+953_7,"Survey and monitoring: Conducting survey and monitoring activities to track the maintenance of high conservation values including biodiversity, environmental services, and provision of social benefits.",10
+953_8,"Capacity-building: Building the management skills of the local community, particularly in scientific conservation management, both in the project area and other areas of conservation importance in the project zone.",10
+953_9,"Maintenance of Guyra Paraguay staff: Maintaining a Guyra Paraguay staff member based in Bahia Negra responsible for coordinating participatory management planning and implementation, including capacity-building within the local community.",9
+953_10,"Recruitment and training of local community members: Supporting the recruitment and training of local community members in conservation management, including wardening, survey, and monitoring work.",10
+953_11,"Income stream for the local community: Providing a regular income stream equivalent to 1 US$/yr per ha of project area over the project life to the local community, to be used at their discretion for improving the quality of life.",2
+944_1,"Conservation of forests: The project aims to conserve the forests in order to protect regional watersheds, wildlife, scenic and scientific research values, and forest vegetation with its associated climate change mitigation potential.",15
+944_2,"Addressing drivers of deforestation: The project activities are aimed at addressing the drivers of deforestation within the Protected Area, including forest conversion for cropland, illegal logging, collection of firewood, infrastructure development, and illegal land grabbing.",15
+944_3,"Implementing a conservation strategy: The project aims to implement a conservation strategy throughout the 182,000 hectares of the Protected Area to effectively manage and enforce conservation efforts. This includes staff training, infrastructure development, and financial resources.",10
+944_4,Communication strategy: The project is implementing a communication strategy to raise public awareness about the importance of conserving the Protected Area and engage the local population in the project.,10
+944_5,"Obtaining additional certification: The project is committed to obtaining additional certification by the Climate, Community and Biodiversity Standards (CCBS) to ensure that Conservation Agreements provide net community benefits to local settlers.",10
+1360_1,"Suitable environmental use of communal land: This component promotes economic and food security activities compatible with the appropriate use of communal territories. Activities include participatory microzoning, agroforestry systems, improvement of traditional agricultural areas, community forest management, forest enrichment, and ecological tourism activities.",11
+1360_2,"Creating capabilities for administration of natural resources: This component focuses on developing the capacities of the community people for the proper management of their natural resources. Activities include training programs, communication strategies, capacity building for authorities and community members, promotion of forestry and local governance, and conflict resolution.",11
+1360_3,"Project finance and articulation with the market: This component involves activities oriented towards funding, market articulation, strengthening financial capacity, and organizing groups of producers.",4
+1360_4,Technical assistance and supervision in Native Communities by the State: This component aims to establish strategic alliances between the communities and the state for technical cooperation and training. Activities include training community members through state representatives and strengthening the management of natural resources.,11
+1202_1,"Community Sensitization, Education and Consultation: BCP works closely with local representatives and traditional community leaders to identify local causes and drivers of deforestation. They engage with local communities through a robust and extensive community consultation and sensitization process. This activity aims to ensure local legitimacy and buy-in to the project.",7
+1202_2,School Environmental Education Program: BCP aims to raise awareness about forests and the environment among youths by teaching them about the dangers of deforestation and promoting better practices. They coordinate environmental awareness programs at community schools and provide intensive teacher training and resources for students.,7
+1202_3,"Scholarship Program: BCP provides scholarships to youth with academic ability and interest in environmental issues. This program promotes education, youth involvement in environmental protection, and the development of young leaders as activists and ambassadors.",7
+1202_4,Forest Football and Environmental Education Program: This program targets youth for involvement in environmentally conscious activities and promotes a healthy lifestyle that emphasizes alternatives to deforestation.,0
+1202_5,Governance: Institution Building: BCP works with local communities to develop and support community decision-making institutions called Zone Development Committees. These committees combine local elected representatives with traditional leaders to ensure decisions about project activities benefit from local knowledge and support.,7
+1202_6,"Agro-forestry: BCP promotes tree-planting and reforestation projects, particularly those with a commercial or food security improvement aspect. They aim to improve local food security and reduce deforestation for agricultural expansion and charcoal production.",7
+1202_7,"Conservation Farming: BCP's Conservation Farming Training Program teaches farmers how to become more efficient and productive on their farms, with the aim of improving food security and reducing deforestation for agricultural expansion and charcoal production.",7
+1202_8,Eco-Tourism: BCP involves local community stakeholders in eco-tourism activities to provide them with income and tangible benefits from the protected forest environment. This activity promotes forest protection and community development.,7
+1202_9,Improved Small Livestock Production: BCP aims to improve local food security and help participants develop small-scale community-owned livestock businesses that can generate income. This activity is linked to deforestation mitigation through the use of Community Covenants.,7
+1202_10,"Community Livestock Worker Program: Improved Animal Care: BCP trains representatives from each village in the improved care of livestock and facilitates their access to necessary training, information, and resources. This program supports BCP's livestock projects and improves the health of livestock living within the project zone.",7
+1202_11,Solar Technology Extension Project: BCP promotes the use of solar technology to reduce local practices of using firewood for lighting. They empower local operators to run their own small-scale solar businesses and increase access to solar technology.,7
+1202_12,Miombo Mushroom Business: BCP promotes the collection and growing of mushrooms as forest-compatible activities that improve food security and provide an alternative source of income. This activity promotes forest protection and the sustainable use of natural resources.,7
+1202_13,Seasonal Thatch Business: BCP facilitates local practices of collecting thatch by providing transportation and access to markets for thatch products. This activity develops a small business opportunity and reduces fuel-loads for late-season fires.,7
+1202_14,"Social Services: BCP supports the improvement of quality of life for residents within the project zone by providing access to education, medical care, clean water supplies, and other social services.",7
+1202_15,"Sustainable Eco-Charcoal Production: BCP's eco-charcoal project combines sustainable harvesting practices, improved kiln technologies, and value chain interventions to create incentives for rural producers to switch from unsustainable to sustainable charcoal production. This project promotes forest protection, improves rural livelihoods, and enhances carbon stocks.",7
+1202_16,Sustainable Honey Production: BCP promotes honey production as an alternative source of food and income among rural stakeholders. This project also creates incentives for participants to protect areas of forest where honey production takes place.,7
+1202_17,"Sustainable Hydra-Form Brick Making: BCP uses hydra-form bricks for construction projects, which require less cement and do not require wood-firing. This project reduces deforestation for traditional brick-making and creates local employment opportunities.",7
+1202_18,"Tree Planting (woodlots), Tree Nurseries, Orchards: BCP promotes tree planting and afforestation projects in partnership with the Zambian Forestry Department. They aim to improve forest cover, provide sustainable forest management, and develop commercial opportunities for communities.",7
+1202_19,"Crop Diversification: BCP promotes crop diversification through partnerships with organizations to connect rural producers to urban markets. This project improves field health, increases yields, and enhances household resilience.",7
+1202_20,"Vegetable Production: BCP facilitates the development of vegetable gardens as family food sources or commercial business opportunities. This project improves food security, provides alternative sources of income, and reduces deforestation for food or income.",7
+1202_21,Sewing Project: BCP works with interested participants to develop sewing projects as locally-owned small businesses. This project creates employment opportunities and provides alternative livelihoods to reduce deforestation.,7
+1202_22,"Edible Insect Project: BCP promotes the harvesting of edible insects as an alternative source of food and income. This project improves food security, increases income, and promotes forest protection.",7
+1202_23,Savings and loans groups: BCP facilitates community access to training and resources for community savings and loans groups. This project helps develop alternatives to deforestation and improves access to financial resources for household well-being.,7
+1202_24,Employment: BCP provides regular alternative sources of income to local stakeholders to reduce their need to engage in deforestation-dependent activities. This project aims to alleviate poverty and provide sustainable livelihood opportunities.,7
+1202_25,"Forest Monitors and Scouts: BCP trains security teams comprised of local community members to patrol and secure the project area, reporting any acts of deforestation or wildlife poaching. They also engage in comprehensive biodiversity monitoring programs.",7
+1202_26,Boundary Demarcation: BCP undertakes boundary demarcation activities to ensure local community stakeholder awareness and acceptance of project area boundaries. This activity reduces the potential for conflict stemming from confusion about the boundary location.,7
+1202_27,Community-Based Forest Biomass and Carbon Stock Monitoring: BCP's community-based Plot Team collects data using smartphone technology to measure forest carbon stocks. This activity promotes community involvement and ownership of local forest resources and ensures high-quality data for carbon accounting.,7
+1202_28,Social Monitoring Program: BCP monitors and evaluates the impacts of project activities on local stakeholder livelihoods to ensure positive impacts and effective reduction of local drivers of deforestation.,7
+1202_29,Community Covenants: BCP uses community covenants to link participation in project activities to forest protection aims. These covenants prevent/reduce the risk of adverse effects from project activities and ensure a direct link between project activities and deforestation reductions.,7
+1382_1,Forego Clearing of the Project Area and Conversion to Pasture: The primary project activity is voluntarily foregoing the clearing of the project area and conversion of the land to a large-scale cattle ranch.,3
+1382_2,"Raise Project Awareness: The project was discussed with local families to ensure they were fully aware of the project, able to contribute to the project design, and able to give Free, Prior and Informed Consent (FPIC).",2
+1382_3,"Hire Project Manager: Jose Aurimar Tavares Carneiro, also known as Mazinho, will be the local project manager of the project.",9
+1382_4,"Patrol and Monitor Deforestation: Jose Aurimar Tavares Carneiro (Mazinho) and Francisco Circlandio will monitor for deforestation in the project area along the Jurupari, Purus, and Envira Rivers by boat every 60 days.",15
+1382_5,"Provide Agricultural Extension Services: JR Agropecuária e Empreendimentos EIRELI will offer agricultural extension courses, including alternatives to the use of fire in land preparation, improved pasture management, extraction and processing of medicinal plants, production of açaí, and raising chickens.",8
+1382_6,"Establish a Project Headquarters: The headquarters of the project will be established inside the project area along the Jurupari River, providing accommodation, meeting space, and storage for project equipment.",6
+1067_1,INFIERNO SECTOR: Established an interagency coordinating agreement between the Native Community Ese'eja of Infierno and AIDER. Conducted participatory meetings with community leaders on mapping threats and ecosystem services. Organized meetings and workshops on sustainable forest management and timber extraction.,9
+1067_2,APAYLOM SECTOR (Malinowski River): Established a partnership agreement between the Association of Agricultural Producers and Golden Handcrafted Washers Malinowski (APAYLOM) and AIDER. Conducted workshops and training sessions on legal regulations and formalization of artisanal miners. Implemented clean technologies for gold recovery without mercury.,9
+1067_3,"SECTOR Loero, JORGE CHAVEZ AND NEW AMERICA: Established a reimbursable agreement between FONDAM, PROFONANPE, and AIDER for the implementation of participative management and promotion of sustainable production in three populations. Aimed at addressing deforestation threats in the project area.",9
