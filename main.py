@@ -21,7 +21,7 @@ def script():
     scrape_all_projects()
     analyse_all_projects()
     ##############################
-    # cluster project activities
+    # cluster project activities and classify them
     cluster_project_activities()
     classify_all_project_activities()
     ##############################
